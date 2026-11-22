@@ -114,11 +114,12 @@ class Cliente(EntidadBase):
         self.telefono = telefono
         super().__init__()  # el id se asigna solo si todo fue válido
 
-    # --- nombre ---
+    # --- nombre --
     @property
     def nombre(self):
         return self.__nombre
 
+    
     @nombre.setter
     def nombre(self, valor):
         if not isinstance(valor, str) or len(valor.strip()) < 3:
@@ -141,7 +142,7 @@ class Cliente(EntidadBase):
             )
         self.__documento = valor
 
-    # --- email ---
+    # --- email --..
     @property
     def email(self):
         return self.__email
