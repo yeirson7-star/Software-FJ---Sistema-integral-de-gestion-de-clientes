@@ -8,7 +8,7 @@ eventos y errores (software_fj.log).
 Conceptos que se aplican:
     - Abstraccion: EntidadBase y Servicio son clases abstractas (ABC).
     - Herencia: Cliente hereda de EntidadBase; las tres clases de servicio
-      heredan de Servicio.
+      heredan de Servicio
     - Polimorfismo: cada servicio sobrescribe calcular_costo_base, describir
       y validar_parametros.
     - Encapsulacion: atributos privados con propiedades y validaciones.
