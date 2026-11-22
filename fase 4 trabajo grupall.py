@@ -583,6 +583,7 @@ def main():
     print("\nEl programa termino con normalidad. Revisa 'software_fj.log' para ver el detalle.")
 
 
+
 if __name__ == "__main__":
     main()
 
